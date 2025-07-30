@@ -1,8 +1,10 @@
-# 🧠 Git Learning Journal
+# Git Learning Journal
 
-## 📁 Day 1: Git Initialization and First Push
+## Day 1: Git Initialization and First Push
 
-### ✅ Terminal History
+### Terminal History
+
+#### 1. i. Exercise 1 Bundle 1
 
 ```powershell
 PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git init
@@ -47,3 +49,21 @@ Writing objects: 100% (4/4), 513 bytes | 513.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/faustin12-g/git_ninja.git
  * [new branch]      main -> main
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git checkout -b dev
+Switched to a new branch 'dev'
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git branch test
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git branch -a
+* dev
+  main
+  test
+  remotes/origin/main
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git branch -d test
+Deleted branch test (was d0ef8f1).
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git branch
+* dev
+  main 
+```
+
+#### Bundle 1 exercise 2
+
+```
