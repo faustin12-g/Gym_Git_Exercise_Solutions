@@ -274,3 +274,9 @@ PS C:\Users\USER\Desktop\Overall\THE GYM\GIT>
 
 
 #### 2. Bundle 2 exercise 1
+```
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+
+Create services.html manually
+
