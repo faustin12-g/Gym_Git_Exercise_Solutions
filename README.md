@@ -280,3 +280,35 @@ Switched to a new branch 'ft/bundle-2'
 
 Create services.html manually
 
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git status
+On branch ft/bundle-2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        services.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git add .
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git commit -m "services added"
+[ft/bundle-2 9dd1f10] services added
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 services.html
+PS C:\Users\USER\Desktop\Overall\THE GYM\GIT> git push origin ft/bundle-2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 740 bytes | 246.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/faustin12-g/Gym_Git_Exercise_Solutions/pull/new/ft/bundle-2        
+remote:
+To https://github.com/faustin12-g/Gym_Git_Exercise_Solutions
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+ ```
